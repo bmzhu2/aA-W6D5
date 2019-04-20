@@ -1,0 +1,68 @@
+body {
+  background: khaki;
+}
+
+.clock-and-weather {
+  display: flex;
+  justify-content: center;
+}
+
+.clock {
+  font-family: "Cute Font";
+  font-size: 100px;
+  width: 75%;
+}
+
+.clock > h1 {
+  margin: 50px 0 50 0;
+  text-align: center;
+  background: coral;
+  border-radius: 10px;
+}
+
+.time {
+  background: cornflowerblue;
+  padding: 20px;
+  border-radius:10px;
+}
+
+.time-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs-and-auto {
+  display: flex;
+  background: pink;
+}
+
+.tabs{
+  margin: 50px 0 50 0;
+  background: green;
+  border-collapse: collapse;
+}
+
+.tab-index{
+  display: flex;
+  justify-content: space-between;
+  border-collapse: collapse;
+}
+
+.tab-index-item {
+  width: 70px;
+  border: 2px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+.content {
+  width: 100%;
+  height: 210px;
+  text-align: center;
+  vertical-align: middle;
+  /* border: 2px solid black; */
+  border-right: 2px solid black;
+}
+
+
+
